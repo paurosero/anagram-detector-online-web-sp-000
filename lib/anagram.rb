@@ -6,7 +6,8 @@ attr_accessor :word
   end
 
   def match(word)
-    word
+    word.clear
+    
   end
 
 end
