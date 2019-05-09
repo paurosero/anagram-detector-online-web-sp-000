@@ -5,6 +5,8 @@ attr_accessor :word
     @word = word
   end
 
-  
+  def match
+    self.match
+  end
 
 end
