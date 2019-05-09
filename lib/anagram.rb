@@ -6,7 +6,7 @@ attr_accessor :word
   end
 
   def match(word)
-    word.match(%w[word])  
+  self.match(%w[word])  
   end
 
 end
