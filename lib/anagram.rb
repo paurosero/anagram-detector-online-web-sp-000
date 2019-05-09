@@ -6,7 +6,7 @@ attr_accessor :word
   end
 
   def match(word)
-  Anagram.match(%w[word])  
+  word.match(%w[word])  
   end
 
 end
