@@ -8,9 +8,9 @@ attr_accessor :word
     @name = word
   end
 
-  def match(word)
+  def match(words_array)
    # binding.pry
-    
+    words_array.select {|word| 
   end
 
 end
