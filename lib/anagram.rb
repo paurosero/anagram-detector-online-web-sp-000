@@ -9,6 +9,7 @@ attr_accessor :word
   end
 
   def match(word)
+    binding.pry
     @@all
   end
 
