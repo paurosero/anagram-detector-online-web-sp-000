@@ -7,7 +7,7 @@ attr_accessor :word
   end
 
   def match(word)
-    @@all
+    @@all.match(%w(word))
     
   end
 
